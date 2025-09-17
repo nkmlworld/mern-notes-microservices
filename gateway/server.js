@@ -39,6 +39,12 @@ app.use(
   })
 );
 
+// Version endpoint (new feature)
+app.get("/version", (req, res) => {
+  res.json({ service: "gateway", version: "1.0.0" });
+});
+
+
 app.listen(PORT, () => {
   console.log(`🚪 Gateway running at http://localhost:${PORT}`);
 });
