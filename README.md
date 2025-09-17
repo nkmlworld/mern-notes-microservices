@@ -41,7 +41,7 @@ mern-notes-microservices/
 
 ### 1. Clone repo
 ```bash
-git clone https://github.com/<your-username>/mern-notes-microservices.git
+git clone https://github.com/nkmlworld/mern-notes-microservices.git
 cd mern-notes-microservices
 
 2. Install dependencies
